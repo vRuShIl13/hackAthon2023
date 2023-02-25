@@ -1,9 +1,15 @@
+
 import './App.css';
-import Category from './components/category';
+import Event from './components/event'
 
 function App() {
   return (
-    <Category/>
+    <div className="App">
+      <header className="App-header">Club-Connect</header>
+      <div>
+      
+      </div>
+    </div>
   );
 }
 
