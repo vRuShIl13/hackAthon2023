@@ -1,0 +1,44 @@
+.event-post {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+  }
+  
+  .event-img {
+    width: 150px;
+    height: 250px;
+  }
+  
+  .event-title {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .event-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .event-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .event-btn:hover {
+    background-color: #0062cc;
+  }
+  

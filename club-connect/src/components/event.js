@@ -1,16 +1,15 @@
 import React from 'react'
-
-
-
+import './event.css'
 
 const event = ({ image, link ,post, description }) => {
   return (
     <div className="event-post">
-        <h3>{post}</h3>
-        <p>{description}</p>
-        <div class = 'more-info-button'>
+        <img src={image} alt="event" className='event-img'></img>
+        <h3 className = 'event-title'>{post}</h3>
+        <p className='event-description'>{description}</p>
+        <div className = 'more-info-button'>
             <a href= {link} >
-                <button>More Info</button>
+                <button className='event-btn'>More Info</button>
             </a>
     
         </div>
