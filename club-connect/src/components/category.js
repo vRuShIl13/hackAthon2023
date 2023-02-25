@@ -7,7 +7,12 @@ export const Category = () => {
             Category
         </h2>
 
-        
+        <div>
+            <ul>
+                
+            </ul>
+        </div>
+
         
     </div>
   )
