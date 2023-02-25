@@ -16,7 +16,7 @@ ul{
 #category-header{
     position: relative;
     left: 0;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     font-size: 30px;
 }
 
