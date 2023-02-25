@@ -14,18 +14,18 @@
   
   .event-img {
     width: 150px;
-    height: 250px;
+    height: 200px;
   }
   
   .event-title {
     text-transform: uppercase;
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 18px;
+    
   }
   
   .event-description {
     font-size: 16px;
-    margin-bottom: 10px;
+    
   }
   
   .event-btn {
