@@ -14,32 +14,83 @@ export const Category = () => {
         </h2>
 
         <div className = "category-grid">
-            <ul>
+            <ul className = "grid">
               <li>
-                <Event
-                  image= "https://media.licdn.com/dms/image/C5622AQEp1OwuO8WezA/feedshare-shrink_1280/0/1676658904610?e=1680134400&v=beta&t=2WKQ2dCJs-HacAtIgMBUNwiAcD0gYO0oM9JkdHioSoY"
-                  post="Category 1"
-                  description="This is going to be the best event ever!"
-                  link= "https://devclub.ca/"
-                />
+                <div className = "card">
+                  <Event
+                    image= "https://media.licdn.com/dms/image/C5622AQEp1OwuO8WezA/feedshare-shrink_1280/0/1676658904610?e=1680134400&v=beta&t=2WKQ2dCJs-HacAtIgMBUNwiAcD0gYO0oM9JkdHioSoY"
+                    post="Category 1"
+                    description="This is going to be the best event ever!"
+                    link= "https://devclub.ca/"
+                  />
+                </div>
               </li>
 
               <li>
-                <Event
-                  post="Category 2"
-                  description="This is going to be the best event ever!"
-                  link= "google.com"
-                  
-                />
+              <div className = "card">
+                  <Event
+                    image= "https://media.licdn.com/dms/image/C5622AQEp1OwuO8WezA/feedshare-shrink_1280/0/1676658904610?e=1680134400&v=beta&t=2WKQ2dCJs-HacAtIgMBUNwiAcD0gYO0oM9JkdHioSoY"
+                    post="Category 1"
+                    description="This is going to be the best event ever!"
+                    link= "https://devclub.ca/"
+                  />
+                </div>
               </li>
 
               <li>
-                <Event
-                  post="Category 3"
-                  description="This is going to be the best event ever!"
-                  link= "https://framer.com/projects/Untitled--8Pm1x2UVirWdLBtKdaJs-eKBUt?reason=web-signup&id=325517ef-e665-45e5-b5c7-4f0c853a08ca&preview=1&node=WQLkyLRf1"
-                />
+              <div className = "card">
+                  <Event
+                    image= "https://media.licdn.com/dms/image/C5622AQEp1OwuO8WezA/feedshare-shrink_1280/0/1676658904610?e=1680134400&v=beta&t=2WKQ2dCJs-HacAtIgMBUNwiAcD0gYO0oM9JkdHioSoY"
+                    post="Category 1"
+                    description="This is going to be the best event ever!"
+                    link= "https://devclub.ca/"
+                  />
+                </div>
               </li>
+
+              <li>
+              <div className = "card">
+                  <Event
+                    image= "https://media.licdn.com/dms/image/C5622AQEp1OwuO8WezA/feedshare-shrink_1280/0/1676658904610?e=1680134400&v=beta&t=2WKQ2dCJs-HacAtIgMBUNwiAcD0gYO0oM9JkdHioSoY"
+                    post="Category 1"
+                    description="This is going to be the best event ever!"
+                    link= "https://devclub.ca/"
+                  />
+                </div>
+              </li>
+
+              <li>
+              <div className = "card">
+                  <Event
+                    image= "https://media.licdn.com/dms/image/C5622AQEp1OwuO8WezA/feedshare-shrink_1280/0/1676658904610?e=1680134400&v=beta&t=2WKQ2dCJs-HacAtIgMBUNwiAcD0gYO0oM9JkdHioSoY"
+                    post="Category 1"
+                    description="This is going to be the best event ever!"
+                    link= "https://devclub.ca/"
+                  />
+                </div>
+              </li>
+              <li>
+              <div className = "card">
+                  <Event
+                    image= "https://media.licdn.com/dms/image/C5622AQEp1OwuO8WezA/feedshare-shrink_1280/0/1676658904610?e=1680134400&v=beta&t=2WKQ2dCJs-HacAtIgMBUNwiAcD0gYO0oM9JkdHioSoY"
+                    post="Category 1"
+                    description="This is going to be the best event ever!"
+                    link= "https://devclub.ca/"
+                  />
+                </div>
+              </li>
+
+              <li>
+              <div className = "card">
+                  <Event
+                    image= "https://media.licdn.com/dms/image/C5622AQEp1OwuO8WezA/feedshare-shrink_1280/0/1676658904610?e=1680134400&v=beta&t=2WKQ2dCJs-HacAtIgMBUNwiAcD0gYO0oM9JkdHioSoY"
+                    post="Category 1"
+                    description="This is going to be the best event ever!"
+                    link= "https://devclub.ca/"
+                  />
+                </div>
+              </li>
+
             </ul>
         </div>
 

@@ -1,14 +1,17 @@
 li{
-    height: auto;
+    height: 80%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 ul{
+    height: 100%;
     display: flex;
     list-style-type: none;
+    padding: 2%;
 }
 
 .category{
-    margin-top: 15px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -20,7 +23,17 @@ ul{
     font-size: 30px;
 }
 
-li:hover{
-    padding: 5px;
-    background-color: #999;
+.card{
+    width: 85%;
 }
+
+.card:hover{
+    background-color: #0005;
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
