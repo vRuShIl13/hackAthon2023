@@ -8,16 +8,16 @@ export const Category = () => {
   // }
 
   return (
-    <div>
+    <div className="category">
         <h2 id = "category-header">
-            Category
+            Categories
         </h2>
 
         <div className = "category-grid">
             <ul>
               <li>
                 <Event
-                  post="event 1"
+                  post="Category 1"
                   description="This is going to be the best event ever!"
                   link= "umanitoba.ca"
                 />
@@ -25,7 +25,7 @@ export const Category = () => {
 
               <li>
                 <Event
-                  post="event 2"
+                  post="Category 2"
                   description="This is going to be the best event ever!"
                   link= "google.com"
                   
@@ -34,7 +34,7 @@ export const Category = () => {
 
               <li>
                 <Event
-                  post="event 3"
+                  post="Category 3"
                   description="This is going to be the best event ever!"
                   link= "https://framer.com/projects/Untitled--8Pm1x2UVirWdLBtKdaJs-eKBUt?reason=web-signup&id=325517ef-e665-45e5-b5c7-4f0c853a08ca&preview=1&node=WQLkyLRf1"
                 />

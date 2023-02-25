@@ -9,8 +9,15 @@ ul{
     list-style-type: none;
 }
 
+.category{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 #category-header{
-    position: absolute;
+    position: relative;
     left: 0;
-    margin-left: 50px;
+    margin-left: 10%;
+    font-size: 30px;
 }
