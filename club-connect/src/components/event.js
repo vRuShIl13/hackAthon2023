@@ -8,7 +8,7 @@ const event = ({ image, link ,post, description }) => {
     <div className="event-post">
         <h3>{post}</h3>
         <p>{description}</p>
-        <div class = 'more-info-button'>
+        <div className = 'more-info-button'>
             <a href= {link} >
                 <button>More Info</button>
             </a>

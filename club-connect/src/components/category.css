@@ -1,0 +1,16 @@
+li{
+    position: relative;
+    width: 25%;
+    margin: 5em;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+#category-header{
+    position: absolute;
+    left: 0;
+    margin-left: 50px;
+}
