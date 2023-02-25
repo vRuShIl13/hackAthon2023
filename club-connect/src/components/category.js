@@ -1,11 +1,12 @@
 import React from 'react'
 import Event from './event'
 import "./category.css"
+import EventsList from './addEventList'
+import AddEventForm from './addEvent'
 
 export const Category = () => {
 
-  // const addCategory(cat) = {
-  // }
+  
 
   return (
     <div className="category">
@@ -14,6 +15,8 @@ export const Category = () => {
             Categories
         </h2>
 
+        <EventsList/>
+        <AddEventForm/>
         <div className = "category-grid">
             <ul>
               <li>
@@ -24,7 +27,7 @@ export const Category = () => {
                   link= "https://devclub.ca/"
                 />
               </li>
-
+        
               <li>
                 <Event
                   post="Category 2"
