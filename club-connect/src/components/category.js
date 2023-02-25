@@ -16,7 +16,7 @@ export const Category = () => {
 
         <div className = "category-grid">
             <ul className = "grid">
-                EventContent.map((obj, i) => {
+                {EventContent.map((obj, i) => {
                   return (
                     <li>
                       <div key = {i} className = "card">
@@ -31,7 +31,7 @@ export const Category = () => {
                   )
 
                 }
-                )
+                )}
                 
 
               
