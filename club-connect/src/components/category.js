@@ -9,6 +9,7 @@ export const Category = () => {
 
   return (
     <div className="category">
+        const eventList = [];
         <h2 id = "category-header">
             Categories
         </h2>
@@ -41,6 +42,7 @@ export const Category = () => {
                 />
               </li>
             </ul>
+            
         </div>
 
         
