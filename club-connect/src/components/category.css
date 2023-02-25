@@ -1,7 +1,5 @@
 li{
-    width: 30%;
-    position: relative;
-    width: 25%;
+    height: auto;
 }
 
 ul{
@@ -20,4 +18,9 @@ ul{
     left: 0;
     margin-left: 10%;
     font-size: 30px;
+}
+
+li:hover{
+    padding: 5px;
+    background-color: #999;
 }
