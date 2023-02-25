@@ -1,14 +1,15 @@
 
 import './App.css';
 import Category from './components/category'
+import NavigationBar from './components/navigation-bar';
 
 function App() {
 
-  return (
+  return (    
     <div className="App">
       <header className="App-header">Club-Connect</header>
       <div>
-        <Category/>
+        <Category/> 
       </div>
     </div>
   );
