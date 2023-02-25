@@ -1,0 +1,26 @@
+li{
+    height: auto;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.category{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#category-header{
+    position: relative;
+    left: 0;
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+li:hover{
+    padding: 5px;
+    background-color: #999;
+}
