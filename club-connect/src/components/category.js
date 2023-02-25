@@ -1,5 +1,6 @@
 import React from 'react'
 import Event from './event'
+import EventContent from './eventList'
 import "./category.css"
 
 export const Category = () => {
@@ -15,16 +16,23 @@ export const Category = () => {
 
         <div className = "category-grid">
             <ul className = "grid">
-              <li>
-                <div className = "card">
-                  <Event
-                    image= "https://media.licdn.com/dms/image/C5622AQEp1OwuO8WezA/feedshare-shrink_1280/0/1676658904610?e=1680134400&v=beta&t=2WKQ2dCJs-HacAtIgMBUNwiAcD0gYO0oM9JkdHioSoY"
-                    post="Category 1"
-                    description="This is going to be the best event ever!"
-                    link= "https://devclub.ca/"
-                  />
-                </div>
-              </li>
+                EventContent.map((obj, i) => {
+                  return (
+                    <li>
+                      <div key = {i} className = "card">
+                        <Event
+                          post={obj.post}
+                          description={obj.description}
+                          link = {obj.link}
+                          image={obj.image}
+                        />
+                      </div>
+                    </li> 
+                  )
+
+                }
+                )
+                
 
               
 
