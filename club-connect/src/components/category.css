@@ -21,6 +21,8 @@ ul{
     left: 0;
     margin-left: 10%;
     font-size: 30px;
+
+    
 }
 
 .card{
@@ -28,7 +30,8 @@ ul{
 }
 
 .card:hover{
-    background-color: #0005;
+    position:  relative;
+    top: -20px;
     cursor: pointer;
 }
 
