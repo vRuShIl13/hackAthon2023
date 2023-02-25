@@ -1,6 +1,9 @@
 import React from 'react'
+import Event from './event'
 
-export const Category = () => {
+export const Category = (events) => {
+  const eventList = events.map((event) => <li>{event}</li>)
+
   return (
     <div>
         <h2>
@@ -9,7 +12,7 @@ export const Category = () => {
 
         <div>
             <ul>
-                
+              {eventList}
             </ul>
         </div>
 
