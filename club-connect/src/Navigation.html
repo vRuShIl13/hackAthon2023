@@ -1,0 +1,96 @@
+
+<html>
+<head>
+<style>
+body {
+  font-family:'Times New Roman', Times, serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:black;
+  border-color: rgb(199, 108, 28);
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 5px;
+}
+
+.navbar a {
+  float: right;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 50px 50px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 30px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 50px 50px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:navajowhite;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+    <div class="navbar">
+
+    <img src="UM-logo-horizontal-reverse-rgb (1).png" style="max-height:500px; max-width: 200px; padding: 18px 40px;">
+</img>
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <div class="dropdown">
+    <button class="dropbtn">Faculty
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://umanitoba.ca/science/computer-science">Computer-Science</a>
+      <a href="#">Asper School of Business</a>
+      <a href="#">Biology</a>
+    </div>
+  </div> 
+</div>
+
+
+
+</body>
+</html>
