@@ -1,6 +1,5 @@
 
 import './App.css';
-import Event from './components/event'
 import Category from './components/category'
 
 
