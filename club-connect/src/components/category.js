@@ -10,9 +10,13 @@ export const Category = () => {
 
   return (
     <div className="category">
-        <h2 id = "category-header">
-            Events
-        </h2>
+        <div className="header-part">
+          <h2 id = "category-header">
+              Events
+          </h2>
+
+          <button className="add-event-button">Add Event</button>
+        </div>
 
         <div className = "category-grid">
             <ul className = "grid">
