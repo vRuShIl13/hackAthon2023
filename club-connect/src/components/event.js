@@ -4,7 +4,7 @@ import './event.css'
 const event = ({ image, link ,post, description }) => {
   return (
     <div className="event-post">
-        <a href={link}>
+        <a href={link} target="_blank">
           <img src={image} alt="event" className='event-img'></img>
         </a>
         <h3 className = 'event-title'>{post}</h3>

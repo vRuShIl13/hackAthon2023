@@ -54,6 +54,10 @@ ul{
     vertical-align: middle;
 }
 
+.add-event-button:hover{
+    background-color: #0068e0;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
