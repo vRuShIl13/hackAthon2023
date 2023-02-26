@@ -11,7 +11,7 @@ export const Category = () => {
   return (
     <div className="category">
         <h2 id = "category-header">
-            Categories
+            Categories/Student Clubs
         </h2>
 
         <div className = "category-grid">

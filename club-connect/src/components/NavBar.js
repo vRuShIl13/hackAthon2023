@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <div className="navbar">
 
-    <img className='imgLogo' src={require("../assets/UM-logo-horizontal-reverse-rgb (1).png")} alt='img'>
+    <img className='imgLogo' src={require("../assets/club-connect-logo.png")} alt='Logo'>
     </img>
   <a href="#home">Home</a>
   <a href="#news">News</a>
