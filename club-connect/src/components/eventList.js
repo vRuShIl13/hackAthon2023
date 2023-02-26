@@ -1,35 +1,40 @@
-const EventContent = [
+const CategoryContent = [
     {
-        image: "https://media.licdn.com/dms/image/C5622AQEp1OwuO8WezA/feedshare-shrink_1280/0/1676658904610?e=1680134400&v=beta&t=2WKQ2dCJs-HacAtIgMBUNwiAcD0gYO0oM9JkdHioSoY",
-        post: "Hackathon",
-        description: "Learn how to code!",
+        src: require("../assets/CS-img.png"),
+        alt: "Computer Sience",
+        category: "Computer Science",
+        description: "Computer science clubs are communities of students passionate about technology and programming, where members can collaborate, learn and share their knowledge.",
         link: "https://devclub.ca/hackathon" 
     },
 
     {
-        image: require("../assets/phy.png"),
-        post: "Physics Study Time",
-        description: "Its now or never!",
+        src: require("../assets/eng-img.png"),
+        alt: "Engineering",
+        category: "Engineering",
+        description: "Its now or neverEngineering clubs provide a collaborative environment for students to learn and apply engineering concepts to real-world projects.!",
         link: "https://docs.google.com/forms/d/e/1FAIpQLSepoNEaihiPLopIrgX15Ivo8yMkfYF4KSomY3TG83ehAeCXvA/viewform" 
     },
     {
-        image: require("../assets/samosa.png"),
-        post: "Food Sale!",
-        description: "Taste the delicious!",
+        src: require("../assets/phy-img.png"),
+        alt: "Physics",
+        category: "Physics",
+        description: "Physics clubs are the perfect place to learn how to use a slinky to explain the properties of waves to your friends!",
         link: "" 
     },
     {
-        image: require("../assets/conqherEve.png"),
-        post: "The Conqher Event",
-        description: "For the Asper Women!",
+        src: require("../assets/bio-img.png"),
+        alt: "Biology",
+        category: "Biological Sciences",
+        description: "Discover the amazing world of life - from microscopic organisms to the grandeur of nature's ecosystems, all while bonding with like-minded enthusiasts!",
         link: "https://www.eventbrite.ca/e/conqher-event-tickets-526820643727?fbclid=PAAaYIEEMrUkbxROJxOZb0eyEnngICqM2EeIgGP71MFba9fIYnqc90j9NYDgc" 
     },
     {
-        image: require("../assets/meetingMartis.png"),
-        post: "Lunch With Eternity Martis",
-        description: "Learn from Experienced!",
+        src: require("../assets/chem-img.png"),
+        alt: "Chemistry",
+        category: "Chemistry",
+        description: "Chemistry is like stepping into a magical world of colors, reactions, and discoveries, where you can witness the extraordinary transformations of matter and bond with like-minded people who share your passion for science.    ",
         link: "" 
     }
 ]
 
-export default EventContent;
+export default CategoryContent;

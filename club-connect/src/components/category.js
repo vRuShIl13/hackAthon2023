@@ -12,10 +12,9 @@ export const Category = () => {
     <div className="category">
         <div className="header-part">
           <h2 id = "category-header">
-              Events
+              Categories
           </h2>
 
-          <button className="add-event-button">Add Event</button>
         </div>
 
         <div className = "category-grid">
@@ -25,10 +24,10 @@ export const Category = () => {
                     <li>
                       <div key = {i} className = "card">
                         <Event
-                          post={obj.post}
+                          category={obj.category}
                           description={obj.description}
                           link = {obj.link}
-                          image={obj.image}
+                          src={obj.src}
                         />
                       </div>
                     </li> 
