@@ -1,17 +1,16 @@
 
 import './App.css';
-import Category from './components/category'
-import NavigationBar from './components/navigation-bar';
+import Carousel from './components/carousel';
+import NavBar from './components/NavBar';
 
 function App() {
+  return (
+    <div>
+      <NavBar />
+      <Carousel />
 
-  return (    
-    <div className="App">
-      <header className="App-header">Club-Connect</header>
-      <div>
-        <Category/> 
-      </div>
     </div>
+
   );
 }
 
